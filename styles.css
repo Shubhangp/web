@@ -1,0 +1,113 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #555;
+}
+
+header{
+    display: block;
+}
+
+header img{
+    display: none;
+}
+
+html.step0 header {
+    background-image: url("background.webp");
+    background-color: #162420;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+html.step0 header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+    border-radius: 50%;
+}
+
+html.step0 header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 0.67em 0;
+}
+
+html.step0 header p {
+    margin: 1em 0;
+}
+  
+html.step0 header p a {
+    border: 1px solid #e81c4f;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+}
+  
+html.step0 header a:hover {
+    background:  #e81c4f;
+    color: white;
+}
+
+html.step0 section {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+  
+h2 {
+    margin: 1em 0 0.83em;
+    padding-top: 1em;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+section p {
+    margin: 1em 0;
+}
+
+pre {
+    padding: 1em;
+    margin: 1em 0;
+    border-left: 2px solid #69c;
+    border-bottom: 1px solid #d8dee9;
+    color: #a7adba;
+    background: #f5f7f9;
+}
+
+html.step0 a {
+    color: #e81c4f;
+  }
+
+.section-1,
+.section-2,
+.third-section{
+    display: none;
+}
+
+html.step0 .section-1,
+html.step1 .section-2,
+html.step2 .third-section{
+    display: block;
+}
